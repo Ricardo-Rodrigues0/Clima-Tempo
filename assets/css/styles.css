@@ -1,0 +1,185 @@
+/* Geral */
+/* Reset de estilos padrão para todos os elementos HTML */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+/* Estilos para o corpo (body) da página */
+body {
+    background: linear-gradient(to bottom, #87CEEB, #1E90FF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Classe "hide" para ocultar elementos */
+.hide {
+    display: none;
+}
+
+/* Estilos para o contêiner principal da página */
+.container {
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 2px 40px rgba(0, 0, 0, 0.527);
+    padding: 2rem;
+    color: #333333;
+    border-radius: 1rem;
+}
+
+/* Form */
+/* Estilos para o título do formulário */
+.form h3 {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+/* Define um contêiner flexível para elementos de entrada */
+.form-input-container {
+    display: flex;
+}
+
+/* Estilos para campos de entrada de texto no formulário */
+.form input {
+    padding: .8rem;
+    border: none;
+    flex: 1;
+    border-radius: 4px;
+}
+
+/* Estilos para o botão no formulário */
+.form button {
+    padding: .8rem;
+    min-width: 50px;
+    margin-left: 8px;
+    background-color: #8dd0f5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilos para imagens no formulário */
+.form img {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+/* Clima */
+/* Estilos para elementos relacionados ao clima e mensagens de erro */
+#weather-data,
+#error-message,
+#error-message2,
+#loader {
+    border-top: 1px solid #fff;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+/* Estilos para o cabeçalho de informações de clima */
+#weather-data h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.6rem;
+}
+
+/* Estilos para ícones de clima */
+#weather-data i {
+    font-size: 1rem;
+}
+
+/* Estilos para informações de clima */
+#weather-data span {
+    margin: 0.6rem;
+}
+
+/* Estilos para a imagem da bandeira do país */
+#country {
+    height: 30px;
+}
+
+/* Estilos para o contêiner de descrição do tempo */
+#description-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.2rem 0;
+}
+
+/* Estilos para a descrição do tempo */
+#description {
+    text-transform: capitalize;
+}
+
+/* Estilos para o contêiner de detalhes do clima */
+#details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para a umidade do ar */
+#details-container #humidity {
+    border-right: 1px solid #fff;
+    margin: 0.6rem;
+    padding: 0.6rem;
+}
+
+/* Animação de rotação para o ícone de carregamento */
+#loader i {
+    animation: rotate 1.5s linear infinite;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Sugestões */
+/* Estilos para o contêiner de sugestões */
+#suggestions {
+    border-top: 1px solid #fff;
+    margin-top: 1rem;
+}
+
+/* Estilos para o título das sugestões */
+#suggestions h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Estilos para o contêiner de botões de sugestão */
+#button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Estilos para os botões de sugestão */
+#button-container button {
+    min-width: 10px;
+    margin: 0.8rem;
+    padding: 0.6rem 0.2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #6ab6d4;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    opacity: 0.8;
+    transition: 0.4s;
+    flex-basis: calc(33.33% - 1.6rem);
+}
+
+/* Estilos de hover para os botões de sugestão */
+#button-container button:hover {
+    opacity: 1;
+}
