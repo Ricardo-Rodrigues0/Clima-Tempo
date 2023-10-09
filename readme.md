@@ -1,7 +1,7 @@
 <h1 align="center">Clima Tempo | Veja a previsão do tempo</h1>
 
 <p align="center">
-  <img src="./assets/img/logo.png" alt="Clima Tempo Logo" width="400"/>
+  <img src="./Clima-V1/assets/img/logo.png" alt="Clima Tempo Logo" width="400"/>
 </p>
 
 O **Clima Tempo** é um projeto web desenvolvido para fornecer informações climáticas em tempo real de cidades, estados ou países. Ele foi criado como parte do aprendizado e prática do uso de APIs, sendo o primeiro projeto a incorporar esse conhecimento. A escolha de criar uma aplicação de previsão do tempo foi motivada pela sua relativa simplicidade e pelo amplo acesso à API principal utilizada, a [OpenWeatherMap API](https://openweathermap.org/), que fornece dados como temperatura, vento, umidade e condições climáticas.
@@ -52,10 +52,10 @@ Fique atento para futuras atualizações e melhorias no **Clima Tempo**!
 Aqui estão duas capturas de tela do projeto:
 
 1. **Página Inicial com Campo de Pesquisa**:
-   ![Página Inicial](./assets/img/imgProjeto1.png)
+   ![Página Inicial](./Clima-V1//assets/img/imgProjeto1.png)
 
 2. **Resultado de uma Pesquisa**:
-   ![Resultado da Pesquisa](./assets/img/imgProjeto2.png)
+   ![Resultado da Pesquisa](./Clima-V1//assets/img/imgProjeto2.png)
 
 
 ## Contribuições e Sugestões
