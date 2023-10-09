@@ -65,4 +65,3 @@ Estou sempre aberto a contribuições e sugestões para melhorar o **Clima Tempo
 Agradeço antecipadamente por qualquer contribuição ou sugestão que possa tornar o **Clima Tempo** ainda melhor!
 
 Fique à vontade para entrar em contato comigo através do meu perfil no GitHub: [Ricardo Rodrigues](https://github.com/Ricardo-Rodrigues0)
-
